@@ -76,7 +76,7 @@ void decrypt()
 }
 void add_contacts()
 {
-	ccolor(55);
+	ccolor(63);
          system("cls");
 
         fp=fopen("contact.txt","a");
@@ -124,7 +124,7 @@ for (;;)
 }
 void view_list()
 {
-	ccolor(55);
+	ccolor(63);
 
 		system("cls");
     	gotoxy(30,1);printf("LIST OF CONTACTS");
@@ -269,7 +269,7 @@ void search()
 }
 void modify_contacts()
 {
-	ccolor(55);
+	ccolor(63);
 	
         fp=fopen("contact.txt","r");
 
@@ -357,7 +357,7 @@ void remove_contact()
 	for(;;)
 	{
 		
-		ccolor(55);
+		ccolor(63);
 	 	system("cls");
         fflush(stdin);
         gotoxy(21,24);printf(" To exit enter blank space in the Name");
@@ -480,7 +480,7 @@ int main()
 
 	loading();
 	welcome();
-	main:ccolor(55);
+	main:ccolor(63);
 	system("cls");
 	menu();
 	switch(getch())
